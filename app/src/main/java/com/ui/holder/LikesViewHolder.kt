@@ -6,4 +6,5 @@ import kotlinx.android.synthetic.main.item_list_likes.view.*
 
 class LikesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     var nick = view.tv_nick!!
-    val avatar = view.iv_avatar}
+    val avatar = view.iv_avatar
+}

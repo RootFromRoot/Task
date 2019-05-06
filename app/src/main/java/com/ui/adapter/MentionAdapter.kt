@@ -5,17 +5,16 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.app.task.R
 import com.data.model.Data
-import com.data.model.Likes
 import com.squareup.picasso.Picasso
 import com.ui.holder.LikesViewHolder
 
-class LikesAdapter(var items: ArrayList<Data>): RecyclerView.Adapter<LikesViewHolder>()  {
+class MentionAdapter(var items: ArrayList<Data>): RecyclerView.Adapter<LikesViewHolder>()  {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LikesViewHolder {
-        return LikesViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_list_likes, parent, false))
+        return LikesViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_list_mentions, parent, false))
     }
 
-    fun setLikes(likes: ArrayList<Data>) {
+    fun setMention(likes: ArrayList<Data>) {
         this.items = likes
         notifyDataSetChanged()
     }
