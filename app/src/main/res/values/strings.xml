@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Task</string>
+    <string name="post_stat">Статистика поста</string>
 </resources>

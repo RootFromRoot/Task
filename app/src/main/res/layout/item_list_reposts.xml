@@ -30,6 +30,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     tools:text="@tools:sample/lorem"
+                    android:layout_gravity="center_horizontal"
                     android:gravity="center"
             />
         </LinearLayout>

@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), MainView {
 
         Timber.plant(Timber.DebugTree())
         setupAdapter()
-        
+
         presenter.getLikesFromServer()
         presenter.getCommentsFromServer()
         presenter.getRepostsFromServer()
